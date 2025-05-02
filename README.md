@@ -1,2 +1,3 @@
-# cloudconda.com
-A new design for cloudconda.com
+# Cloudconda
+
+Welcome to Cloudconda — build something amazing!
