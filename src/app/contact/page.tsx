@@ -16,17 +16,17 @@ return (
 
         <div className="relative z-10 flex w-full h-[400px] bg-white/60 mt-30 gap-8 justify-center">
             <div className="flex flex-col mt-20 rounded-xl px-6 md:px-10 xl:px-20 mb-10">
-                <h2 className="text-black text-lg xl:text-2xl uppercase mb-10 mt-4 font-bold">General inquiries</h2>
-                <span className="text-black text-lg xl:text-2xl">info@cloudconda.com</span>
-                <span className="text-black text-lg xl:text-2xl">www.cloudconda.com</span>
-                <span className="text-black text-lg xl:text-2xl">+358 44 9489753</span>
-                <span className="text-black text-lg xl:text-2xl">+92 345 6006720</span>
-                <span className="text-black text-lg xl:text-2xl">+92 335 7559701</span>
+                <h2 className="text-black text-lg xl:text-2xl uppercase mb-10 mt-4 font-bold">Contact</h2>
+                <span className="text-black text-sm xl:text-2xl">info@cloudconda.com</span>
+                <span className="text-black text-sm xl:text-2xl">www.cloudconda.com</span>
+                <span className="text-black text-sm xl:text-2xl">+358 44 9489753</span>
+                <span className="text-black text-sm xl:text-2xl">+92 345 6006720</span>
+                <span className="text-black text-sm xl:text-2xl">+92 335 7559701</span>
             </div>
             <div className="flex flex-col mt-20 rounded-xl md:px-10 mb-20">
                 <h2 className="text-black text-lg xl:text-2xl uppercase mb-10 mt-4 font-bold">Address</h2>
-                <span className="text-black text-lg xl:text-2xl">Finland : Koskikuja 1 B 10, 01600, Vantaa, Finland</span>
-                <span className="text-black text-lg xl:text-2xl max-w-sm">Pakistan : Flat#811, Diamond Terrace, Cotton Export Society, Sector 51A, Scheme 33, Karachi.</span>
+                <span className="text-black text-sm xl:text-2xl">Finland : Koskikuja 1 B 10, 01600, Vantaa, Finland</span>
+                <span className="text-black text-sm xl:text-2xl max-w-sm">Pakistan : Flat#811, Diamond Terrace, Cotton Export Society, Sector 51A, Scheme 33, Karachi.</span>
             </div>
             <div className="hidden xl:flex flex-col mt-20 rounded-xl px-8 mb-20">
                 <h2 className="text-black text-2xl uppercase mb-10 mt-4 font-bold">Get your free weekly updates</h2>
