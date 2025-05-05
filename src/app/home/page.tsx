@@ -37,10 +37,12 @@ return (
         className="bg-transparent hidden xl:block"
         />
         </div>
-        <h1 className="text-8xl md:text-9xl text-black/80 font-bold tracking-tighter text-center mt-20">Welcome to<br />Cloudconda</h1>
+    
+        <h1 className="text-7xl md:text-9xl text-black/80 font-bold tracking-tighter text-center mt-20">Welcome to<br />Cloudconda</h1>
         <p className="text-2xl text-black/70 max-w-4xl font-medium tracking-tighter mx-auto text-center">
         Our consulting services will help you assess different technology strategies and utilize your digital assets to optimally achieve your business goals
         </p>
+
     </div>
     </div>
   );
