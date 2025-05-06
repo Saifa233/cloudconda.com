@@ -12,7 +12,6 @@ return (
     <About />
     <Services />
     <Values />
-    <Contact />
   </>
   );
 }
