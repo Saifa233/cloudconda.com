@@ -3,42 +3,79 @@ import Image from "next/image";
 export default function Values(){
 
 return (
-    <div className="relative w-full h-full bg-black overflow-hidden">
-        <img
-            src="https://images.unsplash.com/photo-1578577133030-78394054ee83?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Fullscreen"
-            className="absolute inset-0 z-0 w-full h-full"
-        />
-        <div className="relative z-10 flex flex-col xl:flex-row gap-4 bg-white/60 w-[90%] xl:w-2/3 mx-auto rounded-4xl mt-20 h-full xl:h-[400px] mb-20 pb-20 items-center">
-            <h2 className="text-3xl md:text-4xl xl:text-5xl mt-20 xl:mt-2 text-black/80 max-w-[90%] xl:px-20">Multiple Locations, Multiple Operations,One Solution, Cloudconda</h2>
-            <img alt="earth-icon" className="w-20 h-20 lg:w-40 lg:h-40 mt-20 mx-auto xl:mr-20" src="https://img.icons8.com/?size=100&id=o0RGqX45DhsZ&format=png&color=000000"/>
+    <section className="min-h-screen bg-black">
+        <div className="flex flex-col gap-8 px-4 pt-8">
+            <div className="flex gap-4"> 
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-8 text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+
+                <span className="text-white text-xl">Services</span>
+            </div>
+            <div className="flex gap-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-8 text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+                <span className="text-white text-xl">Join Us</span>
+            </div>
+            <div className="flex gap-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-8 text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+                <span className="text-white text-xl">Get In Touch</span>
+            </div>
+            <div className="flex gap-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-8 text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+                <span className="text-white text-xl">Insights</span>
+            </div>
+            <div className="flex gap-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-8 text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+                <span className="text-white text-xl">Investors Site</span>
+            </div>
+            <div className="flex gap-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-8 text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+                <span className="text-white text-xl">Whistleblowing</span>
+            </div>
+            <span className="font-bold">_______________________</span>
+
+            <div className="flex gap-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-8 text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+                <span className="text-white text-lg">Data Protection</span>
+            </div>
+            <div className="flex gap-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-8 text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+                <span className="text-white text-lg">Cookie Statement</span>
+            </div>
+            <div className="flex gap-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-8 text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+                <span className="text-white text-lg">Quality Policy</span>
+            </div>
+            <div className="flex gap-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-8 text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+                <span className="text-white text-lg">Billing info</span>
+            </div>
+            <div className="flex gap-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-8 text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+                <span className="text-white text-lg">Offices</span>
+            </div>
         </div>
 
-        <div className="relative z-10 flex w-full h-[400px] bg-white/60 mt-30 gap-8 justify-center">
-            <div className="flex flex-col mt-20 rounded-xl px-6 md:px-10 xl:px-20 mb-10">
-                <h2 className="text-black text-lg xl:text-2xl uppercase mb-10 mt-4 font-bold">Contact</h2>
-                <span className="text-black text-sm xl:text-2xl">info@cloudconda.com</span>
-                <span className="text-black text-sm xl:text-2xl">www.cloudconda.com</span>
-                <span className="text-black text-sm xl:text-2xl">+358 44 9489753</span>
-                <span className="text-black text-sm xl:text-2xl">+92 345 6006720</span>
-                <span className="text-black text-sm xl:text-2xl">+92 335 7559701</span>
-            </div>
-            <div className="flex flex-col mt-20 rounded-xl md:px-10 mb-20">
-                <h2 className="text-black text-lg xl:text-2xl uppercase mb-10 mt-4 font-bold">Address</h2>
-                <span className="text-black text-sm xl:text-2xl">Finland : Koskikuja 1 B 10, 01600, Vantaa, Finland</span>
-                <span className="text-black text-sm xl:text-2xl max-w-sm">Pakistan : Flat#811, Diamond Terrace, Cotton Export Society, Sector 51A, Scheme 33, Karachi.</span>
-            </div>
-            <div className="hidden xl:flex flex-col mt-20 rounded-xl px-8 mb-20">
-                <h2 className="text-black text-2xl uppercase mb-10 mt-4 font-bold">Get your free weekly updates</h2>
-                <input placeholder="Enter your email here" className="bg-black/20 p-2 rounded-md placeholder-white"></input>
-                <div>
-                    <img></img>
-                    <img></img>
-                    <img></img>
-                    <img></img>
-                </div>
-            </div>
-        </div>
-    </div>
+    </section>
   );
 }
