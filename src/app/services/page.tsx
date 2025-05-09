@@ -12,17 +12,26 @@ return (
             alt="Background"
           />
           <div className="relative z-10 space-y-8 px-5">
-            <h1 className="text-[48px] text-black pt-6">SIILI Advisory</h1>
-            <span className="font-bold text-black">___________________________________________</span>
-            <p className="text-[24px] pt-4 max-w-sm text-black">Capturing the value of the AI age needs a new approach: Deep technology skill combined with creativity, co-creation, and business acumen.</p>
-            <button className="w-1/3 border text-black rounded-4xl px-2 py-4 uppercase">Discover</button>
+            <div className="flex flex-col md:flex-row md:gap-28">
+                <div className="">
+                  <h1 className="text-[48px] md:text-[40px] text-black pt-6 md:pt-12 md:px-4">SIILI Advisory</h1>
+                </div>
+                <div className="pt-6 space-y-6">
+                  <span className="font-bold text-black">___________________________________________</span>
+                  <p className="text-[24px] pt-8 max-w-sm text-black">Capturing the value of the AI age needs a new approach: Deep technology skill combined with creativity, co-creation, and business acumen.</p>
+                  <button className="w-1/3 border text-black rounded-4xl px-2 py-4 uppercase">Discover</button>
+                </div>
+            </div>
           </div> 
       </div>
-      <div className="px-4 pb-32">
-        <h1 className="max-w-xs text-[48px] text-black">Impact driven, AI powered</h1>
-        <p className="max-w-sm pt-4 text-[20px] text-black">We offer AI-powered end-to-end digital development - from strategy and design, to innovation, data, engineering, platforms and continous solutions.</p>
-        <div className="flex flex-col gap-6 translate-y-32">
-            <span className="font-extrabold text-black">___________________________________________________</span>
+
+      <div className="flex flex-col md:flex-row px-4 md:gap-12 md:px-8 md:pb-64 overflow-hidden">
+        <div>
+          <h1 className="max-w-xs text-[48px] md:text-[40px] text-black">Impact driven, AI powered</h1>
+          <p className="max-w-sm md:max-w-xs pt-4 text-[20px] text-black">We offer AI-powered end-to-end digital development - from strategy and design, to innovation, data, engineering, platforms and continous solutions.</p>
+        </div>
+        <div className="flex flex-col gap-6 pt-32 md:pt-2 md:gap-16">
+            <span className="font-bold text-black">_____________________________________________</span>
             <div className="flex flex-col pb-2">
               <div className="flex justify-between pr-6">
                 <span className="max-w-xs text-2xl text-black">Forerunner AI-powered software development</span>
@@ -31,7 +40,7 @@ return (
                 </svg>
               </div>
             
-            <span className="font-extrabold text-black">___________________________________________________</span>
+            <span className="font-bold text-black">_____________________________________________</span>
             </div>
             <div className="flex flex-col pb-2">
             <div className="flex justify-between pr-6">
@@ -41,7 +50,7 @@ return (
                 </svg>
               </div>
             
-            <span className="font-extrabold text-black">___________________________________________________</span>
+            <span className="font-bold text-black">_____________________________________________</span>
             </div>
             <div className="flex flex-col pb-2">
               <div className="flex justify-between pr-6">
@@ -50,7 +59,7 @@ return (
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
                 </svg>
               </div>
-            <span className="font-extrabold text-black">____________________________________________________</span>
+              <span className="font-bold text-black">_____________________________________________</span>
             </div>
         </div>
       </div>
