@@ -12,9 +12,9 @@ return (
             alt="Background"
           />
           <div className="relative z-10 space-y-8 px-5">
-            <div className="flex flex-col md:flex-row md:gap-28">
+            <div className="flex flex-col md:flex-row justify-between pr-40">
                 <div className="">
-                  <h1 className="text-[48px] md:text-[40px] text-black pt-6 md:pt-12 md:px-4">SIILI Advisory</h1>
+                  <h1 className="text-[48px] md:text-[40px] text-black pt-6 md:pt-12 md:px-4">From Cloudconda</h1>
                 </div>
                 <div className="pt-6 space-y-6">
                   <span className="font-bold text-black">___________________________________________</span>
@@ -25,16 +25,16 @@ return (
           </div> 
       </div>
 
-      <div className="flex flex-col md:flex-row px-4 md:gap-12 md:px-8 md:pb-64 overflow-hidden">
+      <div className="flex flex-col md:flex-row px-4 md:gap-12 md:px-8 md:pb-64 overflow-hidden justify-between">
         <div>
-          <h1 className="max-w-xs text-[48px] md:text-[40px] text-black">Impact driven, AI powered</h1>
+          <h1 className="max-w-xs text-[48px] md:text-[40px] text-black">Why Cloudconda?</h1>
           <p className="max-w-sm md:max-w-xs pt-4 text-[20px] text-black">We offer AI-powered end-to-end digital development - from strategy and design, to innovation, data, engineering, platforms and continous solutions.</p>
         </div>
         <div className="flex flex-col gap-6 pt-32 md:pt-2 md:gap-16">
             <span className="font-bold text-black">_____________________________________________</span>
             <div className="flex flex-col pb-2">
               <div className="flex justify-between pr-6">
-                <span className="max-w-xs text-2xl text-black">Forerunner AI-powered software development</span>
+                <span className="max-w-xs text-2xl text-black">Deep expertise across cloud, data, AI, and software development</span>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2.0" stroke="currentColor" className="size-8 text-black mt-4">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
                 </svg>
@@ -44,7 +44,7 @@ return (
             </div>
             <div className="flex flex-col pb-2">
             <div className="flex justify-between pr-6">
-                <span className="max-w-xs text-2xl text-black">Tech partnerships</span>
+                <span className="max-w-xs text-2xl text-black">Proven delivery methodologies tailored to complex enterprise environments</span>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2.0" stroke="currentColor" className="size-8 text-black">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
                 </svg>
