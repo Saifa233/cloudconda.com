@@ -1,4 +1,5 @@
-import {Bodoni_Moda} from 'next/font/google';
+import {Fira_Sans} from 'next/font/google';
+import { Bodoni_Moda } from 'next/font/google';
 import './globals.css'
 
 const bodoni = Bodoni_Moda({
@@ -6,13 +7,19 @@ const bodoni = Bodoni_Moda({
   subsets: ['latin'],
 });
 
+const fira = Fira_Sans({
+  weight: '400',
+  subsets: ['latin'],
+});
+
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={bodoni.className}>
+    <html lang="en" className={fira.className}>
       <body>
         {children}
       </body>
