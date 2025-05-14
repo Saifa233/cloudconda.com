@@ -171,7 +171,7 @@ return (
             <div className="flex gap-4"><span className="text-md 2xl:text-xl">→</span><span className="text-md 2xl:text-3xl">Offices</span></div>
           </div>
           <div className="flex items-end translate-y-2">
-            <Link href="/" className="block w-[120px]"><img className="mx-2 lg:mx-4" src="/logo.png"></img></Link>
+            <Link href="/" className="block"><img className="mx-2 lg:mx-4 2xl:h-[150px] 2xl:w-[200px] 2xl:pt-12 2xl:translate-y-48" src="/logo-og.png"></img></Link>
           </div>
         </div>
       </section>
