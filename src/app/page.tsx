@@ -35,7 +35,7 @@ return (
       <section className="p-6 md:p-10 xl:p-15 2xl:p-18 text-black">
         <div className="flex flex-col gap-8 2xl:gap-0">
           <h2 className="2xl:px-36">We understand the need, then transform it into a product.</h2>
-          <div className="flex flex-col md:grid md:grid-cols-3 md:gap-6 xl:pt-12 2xl:pt-16 2xl:p-36">
+          <div className="flex flex-col md:grid md:grid-cols-3 md:gap-6 xl:pt-12 2xl:pt-16 2xl:p-36 2xl:pb-0">
             <div className="space-y-4">
               <img className="h-[313px] md:h-[180px] lg:h-[230px] xl:h-[277px] 2xl:h-[342px] w-full 2xl:w-[90%] object-cover" src="https://images.unsplash.com/photo-1729676149044-b20ca7b1caf6?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
               <div className="flex flex-col gap-4 pb-24 xl:pb-0">
@@ -72,7 +72,7 @@ return (
       <section className="p-0">
         <div className="flex flex-col gap-8">
           <div style={{
-              backgroundImage: 'url(https://images.unsplash.com/photo-1707380659428-4ef121bbf6da?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
+              backgroundImage: 'url(https://images.unsplash.com/photo-1707209857266-fa0eb4c3b05d?q=80&w=2113&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);background-size:cover;background-position:center;background-repeat:no-repeat)',
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               backgroundRepeat: 'no-repeat'
@@ -124,7 +124,13 @@ return (
       </section>
     </div>
 
-    <div className="bg-black">
+    <div style={{
+      backgroundImage: 'url(https://images.unsplash.com/photo-1707209857266-fa0eb4c3b05d?q=80&w=2113&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);background-size:cover;background-position:center;background-repeat:no-repeat)',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat'
+      }}
+      className="">
       <section className="p-6 2xl:px-36 pt-8 2xl:pt-16 pb-16">
         <div className="flex flex-col flex-col-reverse md:grid md:grid-cols-2 gap-4 rounded-lg">
           <div className="text-white p-4 rounded">
@@ -160,7 +166,12 @@ return (
       </section>
     </div>
     
-    <div className="bg-black">
+    <div style={{
+      backgroundImage: 'url(https://images.unsplash.com/photo-1707209857266-fa0eb4c3b05d?q=80&w=2113&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);background-size:cover;background-position:center;background-repeat:no-repeat)',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat'
+      }} className="">
       <section className="px-10 xl:px-18 pt-20 pb-14 xl:pb-64 2xl:pb-96">
         <div className="flex justify-between">
           <div className="text-white text-lg flex flex-col gap-8 xl:gap-16 2xl:gap-12">
