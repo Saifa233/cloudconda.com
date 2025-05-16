@@ -1,6 +1,5 @@
 'use client'
-import Link from 'next/link'
-import Image from "next/image";
+import Footer from '../footer';
 import NavBar from '../navbar';
 export default function Services(){ 
 
@@ -74,29 +73,9 @@ return (
                 </div>
             </section>
         </div>
-    
-        <div style={{
-      backgroundImage: 'url(https://images.unsplash.com/photo-1707209857266-fa0eb4c3b05d?q=80&w=2113&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);background-size:cover;background-position:center;background-repeat:no-repeat)',
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat'
-      }} className="">
-      <section className="px-10 xl:px-18 pt-20 pb-14 xl:pb-64 2xl:pb-96">
-        <div className="flex justify-between">
-          <div className="text-white text-lg flex flex-col gap-8 xl:gap-16 2xl:gap-12">
-            <div className="flex gap-4"><span className="text-md 2xl:text-xl">→</span><span className="text-md 2xl:text-3xl">Services</span></div>
-            <div className="flex gap-4"><span className="text-md 2xl:text-xl">→</span><span className="text-md 2xl:text-3xl">Join Us</span></div>
-            <div className="flex gap-4"><span className="text-md 2xl:text-xl">→</span><span className="text-md 2xl:text-3xl">Insights</span></div>
-            <div className="flex gap-4"><span className="text-md 2xl:text-xl">→</span><span className="text-md 2xl:text-3xl">Get In Touch</span></div>
-            <div className="flex gap-4"><span className="text-md 2xl:text-xl">→</span><span className="text-md 2xl:text-3xl">Offices</span></div>
-          </div>
-          <div className="flex items-end translate-y-2">
-            <Link href="/" className="block"><img className="mx-2 lg:mx-4 2xl:h-[150px] 2xl:w-[200px] 2xl:pt-12 2xl:translate-y-48" src="/logo-og.png"></img></Link>
-          </div>
-        </div>
-      </section>
-        </div>
 
+        <Footer/>
+        
     </div>
   );
 }

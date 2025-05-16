@@ -12,6 +12,7 @@ return (
             </svg>
         </div>
         <div className="hidden lg:flex gap-16 pt-8 pr-24">
+            <Link href="/" className="text-black text-lg">Home</Link>
             <Link href="/services" className="text-black text-lg">Services</Link>
             <Link href="/insights" className="text-black text-lg">Insights</Link>
             <Link href="/joinus" className="text-black text-lg">Join us</Link>

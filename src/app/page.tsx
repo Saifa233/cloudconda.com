@@ -172,17 +172,17 @@ return (
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat'
       }} className="">
-      <section className="px-10 xl:px-18 pt-20 pb-14 xl:pb-64 2xl:pb-96">
+      <section className="px-10 xl:px-18 pt-20 pb-14 xl:pb-24">
         <div className="flex justify-between">
           <div className="text-white text-lg flex flex-col gap-8 xl:gap-16 2xl:gap-12">
-            <div className="flex gap-4"><span className="text-md 2xl:text-xl">→</span><span className="text-md 2xl:text-3xl">Services</span></div>
-            <div className="flex gap-4"><span className="text-md 2xl:text-xl">→</span><span className="text-md 2xl:text-3xl">Join Us</span></div>
-            <div className="flex gap-4"><span className="text-md 2xl:text-xl">→</span><span className="text-md 2xl:text-3xl">Insights</span></div>
-            <div className="flex gap-4"><span className="text-md 2xl:text-xl">→</span><span className="text-md 2xl:text-3xl">Get In Touch</span></div>
-            <div className="flex gap-4"><span className="text-md 2xl:text-xl">→</span><span className="text-md 2xl:text-3xl">Offices</span></div>
+            <div className="flex gap-4"><span className="text-md 2xl:text-xl">→</span><span className="text-md 2xl:text-2xl">Services</span></div>
+            <div className="flex gap-4"><span className="text-md 2xl:text-xl">→</span><span className="text-md 2xl:text-2xl">Join Us</span></div>
+            <div className="flex gap-4"><span className="text-md 2xl:text-xl">→</span><span className="text-md 2xl:text-2xl">Insights</span></div>
+            <div className="flex gap-4"><span className="text-md 2xl:text-xl">→</span><span className="text-md 2xl:text-2xl">Get In Touch</span></div>
+            <div className="flex gap-4"><span className="text-md 2xl:text-xl">→</span><span className="text-md 2xl:text-2xl">Offices</span></div>
           </div>
-          <div className="flex items-end translate-y-2">
-            <Link href="/" className="block"><img className="mx-2 lg:mx-4 2xl:h-[150px] 2xl:w-[200px] 2xl:pt-12 2xl:translate-y-48" src="/logo-og.png"></img></Link>
+          <div className="flex items-end">
+            <Link href="/" className="block"><img className="mx-2 lg:mx-4 2xl:h-[150px] 2xl:w-[200px] 2xl:pt-12 2xl:translate-y-18" src="/logo-og.png"></img></Link>
           </div>
         </div>
       </section>
