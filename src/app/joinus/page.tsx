@@ -15,11 +15,8 @@ return (
                         backgroundPosition:"center",
                         backgroundRepeat : "no-repeat",
                         backgroundSize : "cover"
-                    }}className="h-[800px]">
-                        </div>
-                        <div className="p-6">
-                            <h2 className="uppercase text-black">Join Us</h2>
-                        </div>
+                    }}className="h-[1100px]">
+                    </div>
                 </div>
             </section>
         </div>
@@ -48,7 +45,13 @@ return (
 
                 </div>
 
-                <div className="bg-orange-400 w-full p-36 text-black flex flex-col gap-16">
+                <div style={{
+                    backgroundImage: 'url(https://images.unsplash.com/photo-1707209857266-fa0eb4c3b05d?q=80&w=2113&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat'
+                }}
+                className="w-full p-36 text-white flex flex-col gap-16">
                     <h1>Come as you are; and grow with us to make AI real.</h1>
                     <div className="flex flex-col gap-4 text-2xl max-w-4xl">
                         <span className="font-bold">At Cloudconda, we’ve created a community of top professionals dedicated to shaping the future. We embrace you just as you are and support your personal and professional growth.</span><br/>
@@ -58,9 +61,34 @@ return (
                 </div>
             </section>
         </div>
-        
+                
+        <div className="min-h-screen bg-white">
+            <section className="p-16">
+                <div className="text-black">
+                    <h1 className="px-32">Our Values</h1>
+                    <div className="grid grid-cols-4 p-32">
+                        <div className="space-y-16">
+                            <h2>Ambition</h2>
+                            <p className="text-2xl max-w-xs">We value high-quality delivery in our customer projects as well as professional growth. We strive for excellence.</p>
+                        </div>
+                        <div className="space-y-16">
+                            <h2>Joy</h2>
+                            <p className="text-2xl max-w-xs">Cloudconda makes life easier and more joyful for customers. We embrace a culture where enjoyment is woven into our work, ensuring that we have fun while making a positive impact.</p>
+                        </div>
+                        <div className="space-y-16">
+                            <h2>Humane</h2>
+                            <p className="text-2xl max-w-xs">Cloudconda is all about people – both in fostering a human corporate culture and in creating services with a human-first focus.</p>
+                        </div>
+                        <div className="space-y-16">
+                            <h2>Responsibility</h2>
+                            <p className="text-2xl max-w-xs">Cloudconda drives change and creates means for the world to do so in a way that’s sustainable and responsible.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
         <Footer/>
-        
         
     </div>
   );

@@ -4,7 +4,7 @@ export default function NavBar(){
 
 return (
     <nav className="fixed z-50 bg-white w-full h-[80px] flex justify-between">
-        <Link href="/" className="block w-[120px]"><img className="mx-2 lg:mx-4" src="/logo.png"></img></Link>
+        <Link href="/" className="block w-[120px]"><img className="mx-2 lg:mx-4" src="/assets/logo.png"></img></Link>
         
         <div className='lg:hidden'>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-10 text-black mt-4 mr-4">

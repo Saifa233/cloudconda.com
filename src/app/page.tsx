@@ -18,7 +18,7 @@ export default function App(){
   const router = useRouter();
 
   const goToContact = () => {
-      router.push('/about');
+      router.push('/contact');
     };
 
   const goToJoinUs = () => {
@@ -74,14 +74,14 @@ export default function App(){
                 </div>
               </div>
               <div className="space-y-4">
-                <img className="h-[313px] md:h-[180px] lg:h-[230px] xl:h-[277px] 2xl:h-[342px] w-full 2xl:w-[90%] object-cover" src="https://images.unsplash.com/photo-1706005024051-25bf89ab9d41?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                <img className="h-[313px] md:h-[180px] lg:h-[230px] xl:h-[277px] 2xl:h-[342px] w-full 2xl:w-[90%] object-cover" src="/assets/img-1.png" alt="" />
                 <div className="flex flex-col gap-4 pb-24 xl:pb-0">
                   <span className="text-sm uppercase text-slate-700 2xl:text-lg">Data Solutions</span>
                   <h3 className="">Unlock business value from data through structured platforms, governance, and analytics.</h3>
                 </div>
               </div>
               <div className="space-y-4">
-                <img className="h-[313px] md:h-[180px] lg:h-[230px] xl:h-[277px] 2xl:h-[342px] w-full 2xl:w-[90%] object-cover" src="https://images.unsplash.com/photo-1741705054382-00b2fea36379?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                <img className="h-[313px] md:h-[180px] lg:h-[230px] xl:h-[277px] 2xl:h-[342px] w-full 2xl:w-[90%] object-cover" src="/assets/img-2.png" alt="" />
                 <div className="flex flex-col gap-4 pb-4 xl:pb-0">
                   <span className="text-sm uppercase text-slate-700 2xl:text-lg">Artificial Intelligence</span>
                   <h3 className="">Integrate intelligent automation and decision-making capabilities into your business operations.</h3>
