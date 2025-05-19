@@ -10,11 +10,11 @@ export default function Form() {
         email : '',
     })
 
-    const handleChange = (e) => {
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         setForm({...form, [e.target.name]: e.target.value});
     }
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = async (e: React.FormEvent<HTMLButtonElement>) => {
         console.log('Submitted....')
         e.preventDefault();
         const res = await fetch('/api/contact', {
