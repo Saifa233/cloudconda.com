@@ -16,6 +16,7 @@ return (
             <Link href="/services" className="text-black text-lg">Services</Link>
             <Link href="/insights" className="text-black text-lg">Insights</Link>
             <Link href="/joinus" className="text-black text-lg">Join us</Link>
+            <Link href="/contact" className="text-black text-lg">Contact</Link>
         </div>
     </nav>
 )};
