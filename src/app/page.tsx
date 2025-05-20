@@ -11,6 +11,7 @@ import { useRouter } from 'next/navigation';
 export default function App(){
 
   const [isClient, setIsClient] = useState(false);
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   useEffect(() => {
     setIsClient(true);
@@ -32,6 +33,17 @@ export default function App(){
   const goToInsights = () => {
     router.push('/insights');
   };
+
+  const toggleSection = (index: number) => {
+    setOpenIndex(openIndex === index ? null : index); // toggle
+  };
+
+  const sections = [
+  { title: 'Deep expertise', content: 'Deep expertise across cloud, data, AI, and software development' },
+  { title: 'Proven Delivery', content: 'Proven delivery methodologies tailored to complex enterprise environments' },
+  { title: 'Long term commitments', content: 'Emphasis on long-term partnership, transparency, and co-creation' },
+  { title: 'Sustainable digital solutions', content: 'Focus on scalable, secure, and sustainable digital solutions' },
+  ];
   
 
   return (
@@ -124,31 +136,33 @@ export default function App(){
                 <h2 className="max-w-xs">Why choose us?</h2>
                 <p className="text-xl md:max-w-2xl lg:max-w-7xl 2xl:text-2xl 2xl:max-w-5xl">We offer AI-powered end-to-end digital development - from strategy and design, to innovation, data, engineering, platforms and continous solutions.</p>
               </div>
-              <div className="flex w-full flex-col gap-2">
-                <div className="flex">
-                  <button className="flex w-full 2xl:w-[90%] items-center justify-between border-t-2 py-4 md:py-8">
-                    <span className="inline-block max-w-xs text-left text-2xl 2xl:text-3xl">Deep expertise</span>
-                    <span className="inline-block rotate-90 text-3xl">→</span>
-                  </button>
-                </div>
-                <div className="flex">
-                  <button className="flex w-full 2xl:w-[90%] items-center justify-between border-t-2 py-4 md:py-8">
-                    <span className="inline-block max-w-xs text-left text-2xl 2xl:text-3xl">Proven delivery</span>
-                    <span className="inline-block rotate-90 text-3xl">→</span>
-                  </button>
-                </div>
-                <div className="flex">
-                  <button className="flex w-full 2xl:w-[90%] items-center justify-between border-t-2 py-4 md:py-8">
-                    <span className="inline-block max-w-xs text-left text-2xl 2xl:text-3xl">Long term commitments</span>
-                    <span className="inline-block rotate-90 text-3xl">→</span>
-                  </button>
-                </div>
-                <div className="flex">
-                  <button className="flex w-full 2xl:w-[90%] items-center justify-between border-t-2 border-b-2 py-4 md:py-8">
-                    <span className="inline-block max-w-xs text-left text-2xl 2xl:text-3xl">Sustainable digital solutions</span>
-                    <span className="inline-block rotate-90 text-3xl">→</span>
-                  </button>
-                </div>
+
+              <div className="w-full 2xl:w-[90%]">
+                {sections.map((section, index) => (
+                  <div key={index} className="border-t-2">
+                    <button
+                      onClick={() => toggleSection(index)}
+                      className="flex w-full items-center justify-between py-4 md:py-8"
+                    >
+                      <span className="inline-block max-w-xs text-left text-2xl 2xl:text-3xl">
+                        {section.title}
+                      </span>
+                      <span
+                        className={`inline-block text-3xl transition-transform duration-300 ${
+                          openIndex === index ? 'rotate-270' : 'rotate-90'
+                        }`}
+                      >
+                        →
+                      </span>
+                    </button>
+
+                    {openIndex === index && (
+                      <div className="px-2 pb-6 text-xl text-gray-700 transition-all duration-300">
+                        {section.content}
+                      </div>
+                    )}
+                  </div>
+                ))}
               </div>
             </div>
           </div>

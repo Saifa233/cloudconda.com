@@ -3,7 +3,7 @@ import NavBar from "../navbar"
 import Footer from '../footer'
 export default function Contact () {
     return(
-        <div className="overflow:hidden">
+        <div className="overflow-hidden">
             <NavBar/>
             <div className="min-h-screen bg-white">
                 <section>

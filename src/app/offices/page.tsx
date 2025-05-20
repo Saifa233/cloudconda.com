@@ -18,16 +18,16 @@ export default function Contact() {
                     </div>
                 </section>
             </div>
-
+                        
             <div className="min-h-screen bg-white">
-                <section className="p-32">
-                    <div className="flex justify-center gap-32 pt-16">
+                <section className="p-2 lg:p-32">
+                    <div className="flex flex-col md:flex-row justify-center gap-8 2xl:gap-32 pt-16 pb-16 2xl:pt-0 2xl:pb-0">
                         <div style = {{
                             backgroundImage: 'url(https://images.unsplash.com/photo-1707209857266-fa0eb4c3b05d?q=80&w=2113&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
                             backgroundSize: 'cover',
                             backgroundPosition: 'center',
                             backgroundRepeat: 'no-repeat'
-                        }} className="flex flex-col rounded-2xl w-1/4 p-8 bg-blue-600 text-2xl space-y-16 ">
+                        }} className="flex flex-col rounded-2xl w-full p-8 bg-blue-600 text-2xl space-y-16 ">
                             <h2 className="uppercase">email</h2>
                             <span>info@cloudconda.com</span>
                             <span>www.cloudconda.com</span>
@@ -37,7 +37,7 @@ export default function Contact() {
                             backgroundSize: 'cover',
                             backgroundPosition: 'center',
                             backgroundRepeat: 'no-repeat'
-                        }} className="flex flex-col rounded-2xl w-1/4 p-8 bg-blue-600 text-2xl space-y-16 ">
+                        }} className="flex flex-col rounded-2xl w-full p-8 bg-blue-600 text-2xl space-y-16 ">
                             <h2 className="uppercase">phone</h2>
                             <span>+358 44 9489753</span>
                             <span>+92 345 6006720</span>
@@ -48,7 +48,7 @@ export default function Contact() {
                             backgroundSize: 'cover',
                             backgroundPosition: 'center',
                             backgroundRepeat: 'no-repeat'
-                        }} className="flex flex-col rounded-2xl w-1/4 p-8 bg-blue-600 text-2xl space-y-16 pb-32">
+                        }} className="flex flex-col rounded-2xl w-full p-8 bg-blue-600 text-2xl space-y-16 pb-32">
                             <h2 className="uppercase">address</h2>
                             <span>Finland : Koskikuja 1 B 10, 01600, Vantaa, Finland</span>
                             <span>Pakistan : Flat#811, Diamond Terrace, Cotton Export Society, Sector 51A, Scheme 33, Karachi.</span>

@@ -30,7 +30,7 @@ export default function Footer(){
             }}className="">
             <section className="px-10 xl:px-18 pt-20 pb-14 xl:pb-24">
                 <div className="flex justify-between">
-                    <div className="text-white text-lg flex flex-col gap-8 xl:gap-16 2xl:gap-6">
+                    <div className="text-white text-lg flex flex-col gap-8 xl:gap-6">
                         <div className="flex gap-4"><span className="text-md 2xl:text-xl">→</span><span onClick={goToServices} className="text-md 2xl:text-2xl">Services</span></div>
                         <div className="flex gap-4"><span className="text-md 2xl:text-xl">→</span><span onClick={goToJoinUs} className="text-md 2xl:text-2xl">Join Us</span></div>
                         <div className="flex gap-4"><span className="text-md 2xl:text-xl">→</span><span onClick={goToInsights} className="text-md 2xl:text-2xl">Insights</span></div>
