@@ -1,5 +1,3 @@
-// src/app/api/contact/route.ts
-
 import { NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 
@@ -13,7 +11,9 @@ export async function POST(req: Request) {
     }
 
     const transporter = nodemailer.createTransport({
-      service: 'gmail',
+      host: 'da1.thewebhostserver.com',
+      port: 465,      
+      secure: true,     
       auth: {
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASS,
@@ -21,7 +21,7 @@ export async function POST(req: Request) {
     });
 
     const mailOptions = {
-      from: process.env.EMAIL_USER,
+      from: `"Cloudconda" <${process.env.EMAIL_USER}>`,
       to: email,
       subject: 'Thanks for contacting us!',
       text: `Hello ${firstname},\n\nThank you for reaching out about our development services.\n\nWe'll get back to you soon!\n\n- Cloudconda Team`,
