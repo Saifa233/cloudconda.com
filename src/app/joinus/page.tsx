@@ -93,21 +93,21 @@ return (
                         <div className="space-y-16 text-center lg:text-left">
                         <h3 className="text-2xl font-bold">Joy</h3>
                         <p className="text-base sm:text-lg lg:text-xl max-w-xs mx-auto lg:mx-0">
-                            Cloudconda makes life easier and more joyful for customers. We embrace a culture where enjoyment is woven into our work, ensuring that we have fun while making a positive impact.
+                            We make life easier and more joyful for customers. We embrace a culture where enjoyment is woven into our work, ensuring that we have fun while making a positive impact.
                         </p>
                         </div>
 
                         <div className="space-y-16 text-center lg:text-left">
                         <h3 className="text-2xl font-bold">Humane</h3>
                         <p className="text-base sm:text-lg lg:text-xl max-w-xs mx-auto lg:mx-0">
-                            Cloudconda is all about people – both in fostering a human corporate culture and in creating services with a human-first focus.
+                            We are all about people – both in fostering a human corporate culture and in creating services with a human-first focus.
                         </p>
                         </div>
 
                         <div className="space-y-16 text-center lg:text-left">
                         <h3 className="text-2xl font-bold">Responsibility</h3>
                         <p className="text-base sm:text-lg lg:text-xl max-w-xs mx-auto lg:mx-0">
-                            Cloudconda drives change and creates means for the world to do so in a way that’s sustainable and responsible.
+                            We drive change and creates means for the world to do so in a way that’s sustainable and responsible.
                         </p>
                         </div>
                     </div>
