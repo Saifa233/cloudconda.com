@@ -12,6 +12,15 @@ const fira = Fira_Sans({
   subsets: ['latin'],
 });
 
+export const metadata = {
+  title: {
+    default: 'Cloudconda',
+    template: '',
+  },
+  icons: {
+    icon: '/assets/logo.png'
+  },
+};
 
 export default function RootLayout({
   children,
