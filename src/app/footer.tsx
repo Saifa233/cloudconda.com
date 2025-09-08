@@ -20,6 +20,9 @@ export default function Footer(){
     const goToOffices = () => {
         router.push('/offices');
     }
+    const goToPrivacyPolicy = () => {
+        router.push('/privacy-policy');
+    }
 
     return(
         <div style={{
@@ -36,6 +39,7 @@ export default function Footer(){
                         <div className="flex gap-4"><span className="text-md 2xl:text-xl">→</span><span onClick={goToInsights} className="text-md 2xl:text-2xl">Insights</span></div>
                         <div className="flex gap-4"><span className="text-md 2xl:text-xl">→</span><span onClick={goToContact} className="text-md 2xl:text-2xl">Get In Touch</span></div>
                         <div className="flex gap-4"><span className="text-md 2xl:text-xl">→</span><span onClick={goToOffices} className="text-md 2xl:text-2xl">Offices</span></div>
+                        <div className="flex gap-4"><span className="text-md 2xl:text-xl">→</span><span onClick={goToPrivacyPolicy} className="text-md 2xl:text-2xl">Privacy Policy</span></div>
                     </div>
                 </div>
             </section>
