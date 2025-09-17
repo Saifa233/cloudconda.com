@@ -21,7 +21,7 @@ export const metadata = {
     icon: '/assets/logo.png'
   },
   verification: {
-    google: 'w6YyHXDSoyLBe3h9sXTl_lnuv42llEEAfWGyuy8UaWk',
+    google: "zrxIASbyW_2dF5CeyY7hWOf9nkBOtw0aAKgb9AZgDvw",
   },
 };
 
