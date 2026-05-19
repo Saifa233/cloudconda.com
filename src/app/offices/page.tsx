@@ -19,7 +19,7 @@ export default function Contact() {
                 </section>
             </div>
                         
-            <div className="min-h-screen bg-white">
+            <div className="min-h-screen bg-white text-black/80">
                 <section className="p-2 lg:p-32">
                     <div className="flex flex-col md:flex-row justify-center gap-8 2xl:gap-32 pt-16 pb-16 2xl:pt-0 2xl:pb-0">
                         <div style = {{
