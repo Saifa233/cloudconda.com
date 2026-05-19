@@ -39,7 +39,7 @@ export default function Contact() {
                             backgroundRepeat: 'no-repeat'
                         }} className="flex flex-col rounded-2xl w-full p-8 bg-blue-600 text-2xl space-y-16 ">
                             <h2 className="uppercase">phone</h2>
-                            <span>+358 44 9489753</span>
+                            <span>+358 40 6577780</span>
                             <span>+92 345 6006720</span>
                             <span>+92 335 7559701</span>
                         </div>
@@ -50,8 +50,8 @@ export default function Contact() {
                             backgroundRepeat: 'no-repeat'
                         }} className="flex flex-col rounded-2xl w-full p-8 bg-blue-600 text-2xl space-y-16 pb-32">
                             <h2 className="uppercase">address</h2>
-                            <span>Finland : Koskikuja 1 B 10, 01600, Vantaa, Finland</span>
-                            <span>Pakistan : Flat#811, Diamond Terrace, Cotton Export Society, Sector 51A, Scheme 33, Karachi.</span>
+                            <span>Finland : Kuparitie 1, room 26, 00440, Helsinki</span>
+                            <span>Pakistan : Flat#205, Diamond Terrace, Cotton Export Society, Sector 51A, Scheme 33, Karachi.</span>
                         </div>
                     </div>
                 </section>
