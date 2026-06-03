@@ -53,6 +53,7 @@ export default function MobileNavbar() {
             <div className="flex gap-16 mt-2">
                 <Link href="/" className="text-black text-md">Home</Link>
                 <Link href="/services" className="text-black text-md">Services</Link>
+                <Link href="/ai-sprint" className="text-black text-md">AI Sprint</Link>
                 <Link href="/insights" className="text-black text-md">Insights</Link>
                 <Link href="/joinus" className="text-black text-md">Join us</Link>
                 <Link href="/contact" className="text-black text-md">Contact</Link>
@@ -93,6 +94,7 @@ export default function MobileNavbar() {
             <div className="pt-[90px] w-full bg-gray-100 text-black flex flex-col gap-8 px-6 py-6 text-xl shadow-md">
             <Link href="/" className="">Home</Link>
             <Link href="/services" className="">Services</Link>
+            <Link href="/ai-sprint" className="">AI Sprint</Link>
             <Link href="/insights" className="">Insights</Link>
             <Link href="/joinus" className="">Join us</Link>
             <Link href="/contact" className="">Contact</Link>
